@@ -1,0 +1,1 @@
+return arr[i]+arr_sum(i-1,arr)
