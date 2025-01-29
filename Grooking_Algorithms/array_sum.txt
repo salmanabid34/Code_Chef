@@ -1,0 +1,11 @@
+def sum(i,arr):
+    if i==1:
+        return 1
+    elif i==0:
+        break
+    else:
+       return arr[i]+sum(i-1,arr)
+arr=[4,6,10]
+i=len(arr)
+print(sum(i,arr))
+
